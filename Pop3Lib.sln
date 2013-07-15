@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pop3Lib", "Pop3Lib\Pop3Lib.csproj", "{7A2FBC6E-A0CC-4F56-BD87-7F5C5899B1E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{2BBD91D4-D9FA-4034-98EE-D85462DA43A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{7A2FBC6E-A0CC-4F56-BD87-7F5C5899B1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A2FBC6E-A0CC-4F56-BD87-7F5C5899B1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A2FBC6E-A0CC-4F56-BD87-7F5C5899B1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBD91D4-D9FA-4034-98EE-D85462DA43A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBD91D4-D9FA-4034-98EE-D85462DA43A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBD91D4-D9FA-4034-98EE-D85462DA43A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBD91D4-D9FA-4034-98EE-D85462DA43A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
