@@ -21,6 +21,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <LangVersion>5</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -41,6 +46,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
+    <Compile Include="MailObjects\MailBinary.cs" />
+    <Compile Include="MailObjects\MailItem.cs" />
+    <Compile Include="MailObjects\MailItemBase.cs" />
+    <Compile Include="MailObjects\MailItemCollection.cs" />
+    <Compile Include="MailObjects\MailText.cs" />
+    <Compile Include="MIME\ContentDisposition.cs" />
+    <Compile Include="MIME\ContentType.cs" />
+    <Compile Include="MIME\ParametersBase.cs" />
+    <Compile Include="MIME\ParametersCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.cs" />
   </ItemGroup>
